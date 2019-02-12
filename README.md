@@ -10,7 +10,7 @@ python run.py file.ezc
 
 ## Contributing
 
-It's completely uncommented, don't even bother.
+Good luck.
 
 # Docs
 
