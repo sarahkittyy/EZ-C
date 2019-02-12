@@ -69,6 +69,13 @@ set x 4
 
 Variables have local scope specific to their block. Nested blocks cannot access parent variables.
 
+Some specific variables:
+```
+stack push 4
+stack push 3
+out ${__STACK__} !! ['4', '3']
+```
+
 ## Functions
 
 Functions in EZC are emulated using a local stack to pass parameters.
@@ -127,6 +134,11 @@ ifneq ${x} 3
 	out x isn't 3
 ifeq ${x} 3
 	out x is three
+stack push 5
+ifstack
+	stack pop x
+ifstack
+	out stack not empty
 ```
 
 ## Loops
