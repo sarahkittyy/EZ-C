@@ -1,6 +1,6 @@
 # EZC
 
-Good luck making anything useful in this (yes, turing-complete) langauge.
+Good luck! A fun esoteric language for when you're bored.
 
 To run code:
 
